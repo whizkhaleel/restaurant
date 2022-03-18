@@ -3,7 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1 {
-    color: green;
-    text-align: center;
+body {
+    background-color: #ff4555;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+nav {
+    background-color: rgb(255, 251, 7);
+    display: flex;
+}
+nav .logo {
+    display: flex;
+}
+nav .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+nav .logo h1 {
+    color: rgb(5, 187, 5);
+    font-weight: bold;
 }
